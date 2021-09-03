@@ -770,6 +770,11 @@ footer {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-input:focus + .form-icon-box .form-icon {
+  fill: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-comment {
   padding: 12px 16px;
   resize: none;
@@ -780,6 +785,10 @@ footer {
   border: 1px solid rgba(33, 33, 33, 0.2);
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment:focus {
+  border: 1px solid #2196f3;
 }
 
 .modal-comment::placeholder {
